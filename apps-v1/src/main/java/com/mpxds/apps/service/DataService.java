@@ -1,4 +1,4 @@
-package com.mpxds.apps;
+package com.mpxds.apps.service;
 
 import org.springframework.stereotype.Service;
 import java.util.LinkedHashMap;

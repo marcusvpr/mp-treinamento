@@ -1,4 +1,4 @@
-package com.mpxds.apps;
+package com.mpxds.apps.controller;
 
 import org.primefaces.model.chart.Axis;
 import org.primefaces.model.chart.AxisType;
@@ -7,6 +7,8 @@ import org.primefaces.model.chart.LineChartSeries;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.mpxds.apps.service.DataService;
+
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ViewScoped;
@@ -14,7 +16,7 @@ import javax.faces.bean.ViewScoped;
 @Component
 @ManagedBean
 @ViewScoped
-public class LineChartBean {
+public class LineChartController {
     //
     @Autowired
     private DataService dataService;
